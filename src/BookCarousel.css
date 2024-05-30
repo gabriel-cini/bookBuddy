@@ -1,0 +1,24 @@
+.book-carousel-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .book-slide {
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .book-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book-slide h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .book-slide p {
+    margin: 5px 0;
+  }
+  

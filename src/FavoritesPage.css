@@ -1,0 +1,45 @@
+.favorites-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .favorite-book {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .favorite-book img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .book-details {
+    padding: 10px;
+  }
+  
+  .book-details h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .book-details p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
