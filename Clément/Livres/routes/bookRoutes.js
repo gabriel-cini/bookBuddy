@@ -76,8 +76,6 @@ router.post('/book/favorite/:id', async (req, res) => {
         res.status(400).send(err.message);
     }
 });
-
-// Supprimer un livre des favoris
 router.delete('/book/favorite/:id', async (req, res) => {
     try {
         const book = await Book.findByIdAndUpdate(req.params.id, { isFavorite: false }, { new: true });
